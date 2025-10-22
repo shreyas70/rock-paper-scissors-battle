@@ -300,7 +300,7 @@ speedSlider.addEventListener("input", updateUI);
 // Force blast system
 let lastCanvasBlastTime = 0;
 let lastButtonBlastTime = 0;
-const CANVAS_BLAST_COOLDOWN = 1000; // 1 second for canvas clicks
+const CANVAS_BLAST_COOLDOWN = 100; // 1 second for canvas clicks
 const BUTTON_BLAST_COOLDOWN = 3000; // 3 seconds for button
 const BLAST_RADIUS = 200;
 const BLAST_STRENGTH = 400;

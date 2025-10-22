@@ -15,5 +15,8 @@
     "live-server": "^1.2.2",
     "ts-jest": "^29.1.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ionic/core": "^8.7.7"
   }
 }

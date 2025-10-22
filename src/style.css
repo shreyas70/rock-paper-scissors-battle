@@ -554,6 +554,11 @@ canvas {
     }
 }
 
+/* Mobile responsive enhancements */
+.ion-hide-mobile {
+    display: none !important;
+}
+
 /* Responsive design */
 @media (max-width: 1200px) {
     .game-main {
@@ -568,6 +573,25 @@ canvas {
     }
 
     /* Canvas responsive scaling handled by base canvas styles */
+}
+
+@media (max-width: 768px) {
+    .control-panel {
+        display: none; /* Hide on mobile, use modal */
+    }
+
+    .game-main {
+        padding: var(--spacing-sm);
+    }
+
+    .canvas-container {
+        width: 100%;
+    }
+
+    .entity-selection {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 768px) {
